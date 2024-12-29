@@ -1,5 +1,4 @@
 import random
-from logging import fatal
 
 from art import logo
 
