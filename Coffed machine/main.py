@@ -81,3 +81,10 @@ while is_on:
         payment = process_coin()
         transaction_successful(payment, drink["cost"])
         make_coffee(choice, drink["ingredients"])
+
+
+"""
+* So this style of programming is called Procedural.
+* Procedural programming is one of the earliest paradigms of Programming.
+* In fact, back in the days when we had older languages like Fortran and COBOL,
+"""
