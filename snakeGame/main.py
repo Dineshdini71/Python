@@ -48,18 +48,4 @@ while is_game_on:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 screen.exitonclick()
