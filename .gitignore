@@ -1,3 +1,19 @@
 *.xml
 *.pyc
-pongGame/*
+pongGame/ball.py
+pongGame/main.py
+pongGame/paddle.py
+pongGame/scoreboard.py
+Guess the number/art.py
+Guess the number/main.py
+Mail Merge Project Start/.DS_Store
+Mail Merge Project Start/.idea/.gitignore
+Mail Merge Project Start/.idea/Mail Merge Project Start.imp
+Mail Merge Project Start/Input/.DS_Store
+Mail Merge Project Start/Ouput/.DS_Store
+Coffed machine/.idea/.gitignore
+Coffed machine/.idea/Coffed machine.iml
+NATO Alphebets/.idea/.gitignore
+OOP's/coffee Machine (OOP)/.idea/.gitignore
+OOP's/coffee Machine (OOP)/.idea/.OOP.iml
+OOP's/coffee Machine (OOP)/perp.py
