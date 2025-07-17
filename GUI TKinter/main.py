@@ -21,34 +21,4 @@ entry = Entry(width=10)
 entry.grid(column=3, row=4)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 window.mainloop()

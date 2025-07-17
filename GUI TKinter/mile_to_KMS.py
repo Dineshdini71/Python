@@ -34,16 +34,4 @@ converter_btn.grid(column=2, row=2)
 
 # mile = 1 and Km = 1.609
 
-
-
-
-
-
-
-
-
-
-
-
-
 window.mainloop()
