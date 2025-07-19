@@ -1,5 +1,6 @@
 from tkinter import *
 import math
+
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
 RED = "#e7305b"
@@ -12,7 +13,6 @@ LONG_BREAK_MIN = 20
 repo = 0
 Timer = None
 # ---------------------------- TIMER RESET ------------------------------- #
-
 def reset_timer():
     window.after_cancel(Timer)
     timer_label.config(text="Timer", font=(FONT_NAME, 35, 'bold'), bg=YELLOW, fg=GREEN)
@@ -20,8 +20,6 @@ def reset_timer():
     mark.config(text="")
     global repo
     repo = 0
-
-
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
 
 def start_timer():
@@ -30,8 +28,6 @@ def start_timer():
     work_sec = WORK_MIN * 60
     short_break_sec = SHORT_BREAK_MIN * 60
     long_break_sec = LONG_BREAK_MIN * 60
-
-
     if repo % 8 == 0:
         count_down(long_break_sec)
         timer_label.config(text="Break", fg=RED)
@@ -41,7 +37,6 @@ def start_timer():
     else:
         count_down(work_sec)
         timer_label.config(text="Work", fg=GREEN)
-
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 def count_down(count):
@@ -60,9 +55,6 @@ def count_down(count):
         for _ in range(work_sessions):
             marks += "✔"
         mark.config(text=marks)
-
-
-
 
 # ---------------------------- UI SETUP ------------------------------- #
 
@@ -89,12 +81,5 @@ reset_btn.grid(column=2, row=2)
 
 mark= Label( font=(FONT_NAME, 17, 'bold'), bg=YELLOW, fg=GREEN)
 mark.grid(column=1, row=3)
-
-
-
-
-
-
-
 
 window.mainloop()
