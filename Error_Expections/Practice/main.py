@@ -55,6 +55,23 @@ bmi = weight / height ** 2
 
 print(bmi)
 
+# ------------------- HOW IT WILL WORK -------------------
+
+# try:
+#
+#       It means, If issue is occurs or fails the block of code.
+#
+# expect:
+#
+#       This block of code is deals or resolve the issue.
+#
+# else:
+#
+#        If try block runs without occur any issue. This block of code will be execute
+#
+# finally:
+#
+#        This code will be execute, Above all exceptions are will be success.
 
 
 
