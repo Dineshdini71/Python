@@ -6,7 +6,6 @@ import random
 my_mail = "awsdineshdini@gmail.com"
 password = "yaryhvypbbrusegs"
 
-
 today = datetime.now()
 today_tuple = (today.month, today.day)
 
@@ -28,4 +27,3 @@ if today_tuple in birthday_dict:
             msg=f"Subject:Birthday Wishes to {birthday_person["name"]}\n\n{content}"
         )
 print("Email Sent Successfully 😊 ")
-
